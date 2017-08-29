@@ -1,4 +1,6 @@
 *.swp
+*.pyc
 .tox
+.eggs
 __pycache__
 flask_example.egg-info/

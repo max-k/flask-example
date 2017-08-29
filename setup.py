@@ -21,8 +21,8 @@ if __name__ == '__main__':
             'console_scripts':
                 ['flask_example = {0}.__main__:main'.format(PKG_NAME)],
         },
-        setup_requires=[],
-        tests_require=[],
+        setup_requires=['pytest-runner'],
+        tests_require=['pytest'],
         install_requires=['flask'],
         packages=[PKG_NAME]
     )
