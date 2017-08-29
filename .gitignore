@@ -1,0 +1,4 @@
+*.swp
+.tox
+__pycache__
+flask_example.egg-info/
